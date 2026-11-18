@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Automata</string>
+    <string name="header_title">Automata Theory and Computability</string>
+    <string name="subtitle">NFA → DFA Converter</string>
+
+    <string name="nfa_definition">NFA definition</string>
+    <string name="hint_states">States (comma separated) — e.g. q0, q1, q2</string>
+    <string name="hint_alphabet">Input symbols — e.g. a, b</string>
+    <string name="hint_start">Start state</string>
+    <string name="hint_accept">Accepting states (comma separated)</string>
+    <string name="cb_epsilon">NFA has ε (epsilon) transitions</string>
+    <string name="cb_trap">Add a dead/trap state when a transition is missing</string>
+
+    <string name="transition_table">Transition table δ</string>
+    <string name="table_hint">For each state, list the destination states for every symbol, separated by commas. Leave a cell blank if there is no transition.</string>
+
+    <string name="btn_example">Example</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_convert">Convert →</string>
+
+    <string name="nav_animate">Animate</string>
+    <string name="nav_nfa">NFA</string>
+    <string name="nav_dfa">DFA</string>
+    <string name="nav_tables">Tables</string>
+
+    <string name="legend_normal">state</string>
+    <string name="legend_accept">accepting</string>
+    <string name="legend_trap">dead</string>
+    <string name="legend_start">→ start</string>
+
+    <string name="step_ready_title">Ready to animate</string>
+    <string name="step_ready_detail">Press play to watch the subset construction build the DFA state by state, or tap Next to step through manually.</string>
+    <string name="nfa_title">NFA — input automaton</string>
+    <string name="dfa_title">DFA — after subset construction</string>
+</resources>

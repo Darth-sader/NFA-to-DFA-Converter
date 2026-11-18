@@ -1,0 +1,17 @@
+# Android Studio / Gradle gitignore
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/repositories.xml
+/.idea/timeTracking.xml
+/.idea/caches
+/.idea/shelf
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+app/build/
+.idea/

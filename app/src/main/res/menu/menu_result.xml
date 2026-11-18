@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_animate" android:icon="@drawable/ic_animate"
+        android:title="@string/nav_animate" />
+    <item android:id="@+id/nav_nfa" android:icon="@drawable/ic_nfa"
+        android:title="@string/nav_nfa" />
+    <item android:id="@+id/nav_dfa" android:icon="@drawable/ic_dfa"
+        android:title="@string/nav_dfa" />
+    <item android:id="@+id/nav_tables" android:icon="@drawable/ic_table"
+        android:title="@string/nav_tables" />
+</menu>

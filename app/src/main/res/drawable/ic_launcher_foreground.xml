@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- left NFA state -->
+    <path android:strokeColor="#FF9FB0D0" android:strokeWidth="3" android:fillColor="#00000000"
+        android:pathData="M41,54m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"/>
+    <!-- right accepting DFA state (double ring) -->
+    <path android:strokeColor="#FF00E676" android:strokeWidth="3" android:fillColor="#00000000"
+        android:pathData="M69,54m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"/>
+    <path android:strokeColor="#FF00E676" android:strokeWidth="2" android:fillColor="#00000000"
+        android:pathData="M69,54m-11.5,0a11.5,11.5 0,1 1,23 0a11.5,11.5 0,1 1,-23 0"/>
+    <!-- arrow between -->
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="3"
+        android:pathData="M49.5,54L57,54"/>
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M57,54l-5,-3.2v6.4z"/>
+    <!-- start arrow into left state -->
+    <path android:strokeColor="#FF00E5FF" android:strokeWidth="2.6"
+        android:pathData="M25,54L31.5,54"/>
+    <path android:fillColor="#FF00E5FF"
+        android:pathData="M31.5,54l-4.6,-2.9v5.8z"/>
+</vector>
