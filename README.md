@@ -4,6 +4,7 @@ An interactive Android application built in Java that converts Non-Deterministic
 
 ---
 
+
 ## Key Features
 
 - **NFA-to-DFA Conversion:** Converts NFA and ε-NFA into equivalent DFA.
@@ -19,6 +20,7 @@ An interactive Android application built in Java that converts Non-Deterministic
 
 ---
 
+
 ## Tech Stack
 
 | Component | Technology |
@@ -32,6 +34,7 @@ An interactive Android application built in Java that converts Non-Deterministic
 | Build System | Gradle |
 
 ---
+
 
 ## Project Structure
 
@@ -51,6 +54,7 @@ An interactive Android application built in Java that converts Non-Deterministic
                 └── AndroidManifest.xml
 
 
+
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -62,6 +66,7 @@ cd NFA-to-DFA-Converter
 1. Open the project in Android Studio.
 2. Allow Gradle synchronization to complete.
 3. Run the application on an Android emulator or physical device.
+
 
 ## Algorithm
 
@@ -75,6 +80,7 @@ Rabin–Scott Subset Construction
 6. Identify accepting DFA states based on the original NFA's final states.
 
 The resulting DFA is equivalent to the input NFA.
+
 
 ## Concepts Covered
 
