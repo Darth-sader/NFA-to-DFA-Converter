@@ -19,7 +19,7 @@ An interactive Android application built in Java that converts Non-Deterministic
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 | :--- | :--- |
