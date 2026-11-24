@@ -51,21 +51,21 @@ An interactive Android application built in Java that converts Non-Deterministic
                 └── AndroidManifest.xml
 
 
-## ** Getting Started**
+## Getting Started
 
-### **1. Clone the Repository**
+### 1. Clone the Repository
 git clone https://github.com/Darth-sader/NFA-to-DFA-Converter.git
 cd NFA-to-DFA-Converter
 
-### **2. Build & Run**
+### 2. Build & Run
 
 1. Open the project in Android Studio.
 2. Allow Gradle synchronization to complete.
 3. Run the application on an Android emulator or physical device.
 
-## ** Algorithm**
+## Algorithm
 
-**Rabin–Scott Subset Construction**
+Rabin–Scott Subset Construction
 
 1. Calculate the ε-closure of the initial NFA state.
 2. Create the initial DFA state from the resulting set.
@@ -76,7 +76,7 @@ cd NFA-to-DFA-Converter
 
 The resulting DFA is equivalent to the input NFA.
 
-## ** Concepts Covered**
+## Concepts Covered
 
 - Finite Automata
 - NFA and DFA
