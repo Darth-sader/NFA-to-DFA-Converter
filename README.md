@@ -35,27 +35,25 @@ An interactive Android application built in Java that converts Non-Deterministic
 
 ## Project Structure
 
-```text
-app/
-└── src/
-    └── main/
-        ├── java/
-        │   └── .../
-        │       ├── model/
-        │       │   ├── NFA.java
-        │       │   └── SubsetConstruction.java
-        │       ├── view/
-        │       │   └── AutomatonView.java
-        │       ├── MainActivity.java
-        │       └── ResultActivity.java
-        ├── res/
-        └── AndroidManifest.xml
+        app/
+        └── src/
+            └── main/
+                ├── java/
+                │   └── .../
+                │       ├── model/
+                │       │   ├── NFA.java
+                │       │   └── SubsetConstruction.java
+                │       ├── view/
+                │       │   └── AutomatonView.java
+                │       ├── MainActivity.java
+                │       └── ResultActivity.java
+                ├── res/
+                └── AndroidManifest.xml
 
 
 ## ** Getting Started**
 
 ### **1. Clone the Repository**
-```bash
 git clone https://github.com/Darth-sader/NFA-to-DFA-Converter.git
 cd NFA-to-DFA-Converter
 
